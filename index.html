@@ -1,65 +1,214 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Project Simple Web">
-  <meta name="keywords" content="Website">
-  <meta name="author" content="Devi Rukmana B">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
-  <link rel="stylesheet" href="responsive.css"> 
-  
-  <title>Project Simple Web Devi</title>
-</head>
-<body>
-    <header>
-        <div class="container">
-            <div class="header-left">
-                <img class="logo" src="./logo.png" >
-            </div>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-            
-            <div class="header-right">
-                <a href="#home">HOME</a>
-                <a href="#about">ABOUT US</a>
-                <a href="#contact">CONTACT</a>
-                
-            </div>
-          </div>
-    </header>
+    <title>My Portfolio</title>
+  </head>
+  <body class="mt-5">
+    
 
-    <div class="top-wrapper" id="home">
-        <div class="container">
-            <h1>Enjoy</h1>
-            <h2>Nature</h2>
-        </div>
-        <div>
-          <a href="#" class="btn">Learn more</a>
-        </div>
-    </div>
-  
-   <div id="about"> 
-    <div class="about-wrapper">
+    <!-- My CSS -->
+    <style>
+      section{
+        min-height: 350px;
+      }
+    </style>
+
+
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
+      <a class="navbar-brand" href="#">Devi Rukmama Bidari</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#">Portfolio</a>
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+        </div>
+      </div>
+      </div>
+    </nav>
 
-        <div class="row">
-          <div class="column">
-            <p class="left">Lorem ipsum dolor sit amet
-                consectetuer adipiscing elit
-                sed diam nortummy
-            </p>
-          </div>
+    
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container text-center">
+        <img src="img/profile2.png" width="25%" class="rounded-circle img-thumbnail">
+        <h1 class="display-4">Devi Rukmana Bidari</h1>
+        <p class="lead">Future Web Developer</p>
+      </div>
+    </div>
+
+<section id="about" class="about">
+<div class="container">
+  <div class="row mb-4">
+    <div class="col text-center">
+      <h2>About</h2>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col-md-5 text-center">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Porro in quibusdam fuga vitae dignissimos voluptate repellat reprehenderit error, 
+        explicabo ipsa doloribus dolore esse laborum est doloremque natus libero minima obcaecati.</p>
+    </div>
+    <div class="col-md-5 text-center">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestias aperiam dolor, 
+        fugiat voluptatum, numquam, error impedit eum eaque repellendus ex? Iusto, 
+        rerum perferendis ipsa consectetur eaque quae nobis dolorum!</p>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<section id="portfolio" class="porfolio bg-light pb-4">
+<div class="container">
+  <div class="row mb-4 pt-4">
+    <div class="col text-center">
+      <h2>Portfolio</h2>
+    </div>
+  </div>
+
+
+  <div class="row mb-4">
+    <div class="col-md">
+      <div class="card">
+        <img src="img/thumbs/1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
     </div>
-    </div>
-      
-    <footer>
-      <div class="container">
-        <img src="./logo.png">
-        <p> &copy; 2020 Devi Rukmana B All rights reserved  </p>
+
+    <div class="col-md">
+      <div class="card">
+        <img src="img/thumbs/2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
       </div>
-    </footer>
-</body>
+    </div>
+
+    <div class="col-md">
+      <div class="card">
+        <img src="img/thumbs/3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mb-4">
+    <div class="col-md">
+      <div class="card">
+        <img src="img/thumbs/4.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md">
+      <div class="card">
+        <img src="img/thumbs/5.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md">
+      <div class="card">
+        <img src="img/thumbs/6.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<section id="contact" class="contact mb-5">
+<div class="container">
+  <div class="row pt-4 mb-4">
+    <div class="col text-center">
+      <h2>Contact Me</h2>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col-lg-4">
+      <div class="card text-white bg-info mb-3 text-center">
+        <div class="card-body">
+          <h5 class="card-title">Contact Me</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, rem.</p>
+        </div>
+    </div>
+    <ul class="list-group">
+      <li class="list-group-item"><h1>Location</h1></li>
+      <li class="list-group-item">My Office</li>
+      <li class="list-group-item">Jl. Tarum Barat 2 No.109, Jababeka</li>
+      <li class="list-group-item">West Java, Indonesia</li>
+    </ul>
+  </div>
+
+
+  <div class="col-lg-7">
+    <form>
+      <div class="form-group">
+        <label for="Nama">Nama</label>
+        <input type="text" class="form-control" id="Nama">
+      </div>
+      <div class="form-group">
+        <label for="E-mail">E-mail</label>
+        <input type="text" class="form-control" id="E-mail">
+      </div>
+      <div class="form-group">
+        <label for="Pesan">Pesan</label>
+        <textarea name="pesan" id="pesan" class="form-control"></textarea>
+      </div>
+    <div class="form-group">
+      <button type="submit" class="btn btn-info">Kirim Pesan</button>
+    </div>  
+    </form>
+  </div>
+</div>
+</section>
+
+
+<!-- footer -->
+<footer class="bg-dark text-white">
+  <div class="container">
+    <div class="row pt-3">
+      <div class="col text-center">
+        <p>Copyright 2020</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
 </html>
